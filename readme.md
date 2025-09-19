@@ -1,26 +1,26 @@
-#  ATHENA - AI Voice Assistant
+# ATHENA - AI Voice Assistant
 
 A sophisticated AI voice assistant inspired by Iron Man's Friday, built with LiveKit and Google's Realtime AI model. This assistant provides real-time voice interaction with built-in tools for weather information, web search, and email functionality.
 
-## 🚀 Features
+## Features
 
 - **Real-time Voice Interaction**: Powered by Google's Realtime AI model with natural voice synthesis
 - **Personality**: Classy butler persona with witty, sarcastic responses
 - **Built-in Tools**:
-  - 🌤️ Weather information for any city
-  - 🔍 Web search using DuckDuckGo
-  - 📧 Email sending capabilities via Gmail
+  - Weather information for any city
+  - Web search using DuckDuckGo
+  - Email sending capabilities via Gmail
 - **Noise Cancellation**: Enhanced audio quality with LiveKit's noise cancellation
 - **Video Support**: Optional video functionality
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - LiveKit Cloud account (or self-hosted LiveKit server)
 - Google AI API access
 - Gmail account with App Password (for email functionality)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -39,7 +39,7 @@ A sophisticated AI voice assistant inspired by Iron Man's Friday, built with Liv
    pip install -r requirements.txt
    ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -83,7 +83,7 @@ GMAIL_APP_PASSWORD=your_gmail_app_password
    - Generate a password for "Mail"
 3. Add your Gmail address and app password to the `.env` file
 
-## 🚀 Usage
+## Usage
 
 ### Running the Assistant
 
@@ -117,7 +117,7 @@ User: "Send an email to my colleague about the meeting"
 Friday: "Roger Boss, I'll send that email right away. Email sent successfully to your colleague."
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Modifying the Assistant's Personality
 
@@ -179,7 +179,7 @@ llm=google.beta.realtime.RealtimeModel(
 ),
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 JARVIS/
@@ -194,7 +194,7 @@ JARVIS/
     └── logs/         # Application logs
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -221,7 +221,7 @@ JARVIS/
 
 Check the `KMS/logs/` directory for detailed error logs and debugging information.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -230,18 +230,18 @@ Check the `KMS/logs/` directory for detailed error logs and debugging informatio
 5. Push to the branch: `git push origin feature-name`
 6. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - LiveKit for the real-time communication platform
 - Google AI for the advanced language model
 - Iron Man franchise for the inspiration
 - Open source community for the various tools and libraries
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -251,4 +251,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Enjoy your AI assistant! "At your service, sir." - Friday** 🤖
+**Enjoy your AI assistant! "At your service, sir." - Friday**
